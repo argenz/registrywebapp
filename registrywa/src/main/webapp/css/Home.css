@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.lgc {
+	border-width: 20px;
+	border-color: #50b0e6;  /* Not working */
+}
+
+h1, h3, h5, .center{
+	text-align: center;
+}
+
+.reglink {
+	color: #0a53ff;
+	font-size: x-small;	
+}
+
+.bigtext{
+	font-size: x-large;
+}
+
+.wrong{
+	color: red;
+	font-size: small;
+}
+
+.RegLink{
+	color: white;
+}
+
+.sux{
+	background-color: #5cb85c;
+	color: white;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../css/Home.css" />
+<meta charset="UTF-8">
+<title>Daily Registration</title>
+</head>
+<body>
+	<div class='m-4'>
+		<h3>Complete today's registration</h3>
+	</div>
+	<br>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col"></div>
+			<div class="col-8">
+				<form action='execute-registration' method='post'>
+					<div class="form-group">
+						<label for='regDate'>Date</label> <input id='regDate' name='regDate' type="date" value='2020-03-11'
+							class="form-control">
+					</div>
+					<div class="form-group">
+						<label for='mEntryTime'>Morning Entry Time</label> <input
+							id='mEntryTime' name='mEntryTime' type="time" class="form-control" value='09:00:00'>
+					</div>
+					<div class="form-group">
+						<label for='mExitTime'>Morning Exit Time</label> <input
+							id='mExitTime' name='mExitTime'  type="time" class="form-control" value='13:00:00'>
+					</div>
+					<div class="form-group">
+						<label for='aEntryTime'>Afternoon Entry Time</label> <input
+							id='aEntryTime' name='aEntryTime' type="time" class="form-control" value='14:00:00'>
+
+					</div>
+					<div class="form-group">
+						<label for='aExitTime'>Afternoon Exit Time</label> <input
+							id='aExitTime' name='aExitTime' type="time" class="form-control" value='18:00:00'>
+
+					</div>
+					<div class="form-group">
+						<label for='description'>Topics</label>
+						<textarea id='description' name='description'  class="form-control"
+							placeholder="Describe what you have learned today..."> Introduction </textarea>
+					</div>
+					<div class="form-group">
+						<label for='signCand'>Signature</label> <input id='signCand' name='signCand' value='Francesca'
+							class="form-control"> <small id="emailHelp"
+							class="form-text text-muted">Writing you full name counts
+							as a signature.</small>
+					</div>
+					<button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+					<br>
+					<br>
+				</form>
+			</div>
+			<div class="col"></div>
+		</div>
+	</div>
+</body>
+</html>
