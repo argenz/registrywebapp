@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.sql.DataSource;
 
-@WebServlet("/DBInteract/login-student")
+
 public class StudLoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
